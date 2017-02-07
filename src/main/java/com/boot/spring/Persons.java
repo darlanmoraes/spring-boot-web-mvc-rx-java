@@ -1,4 +1,4 @@
-package com.boot.spring.person;
+package com.boot.spring;
 
 import io.reactivex.Observable;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/persons", produces = MediaType.APPLICATION_JSON_VALUE)
-public class PersonController {
+public class Persons {
 
     static final Long TIMEOUT = 999999L;
 
